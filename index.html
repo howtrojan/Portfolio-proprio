@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+  </head>
+  <body>
+    <nav class="menu navbar navbar-expand-lg text-light">
+      <a class="navbar-brand" href="#"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#sobre">Sobre mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#conhecimentos">Conhecimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#projetos">Projetos</a>
+          </li>
+          <li id="mcontato" class="nav-item">
+            <a class="nav-link text-light" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="sobre" id="sobre">
+      <div class="sobre-caixa">
+        <h1 id="log" class="sobre-titulo"></h1>
+        <div class="tbemvindo">
+        <h2 id="bemvindo" class="sobre-texto"></h2>
+        </div>
+        <br>
+        <div class="icones-contato grayscale-icons">
+          <a href="https://github.com/howtrojan" target="_blank">
+              <img class="iconecima" src="./assets/github.png" alt="github">
+          </a>
+          <a href="https://www.linkedin.com/in/andresantosbraga/" target="_blank">
+              <img class="iconecima" src="./assets/linkedin.png" alt="linkedin">
+          </a>
+      </div>
+      
+      
+      </div>
+      <img class="imgperfil" src="./assets/perfil.jpg" alt="Foto de Perfil" />      
+    </div>
+
+    <h1 id="conhecimentos" class="tconhecimentos">Conhecimentos</h1>
+
+    <div class="conhecimentos" >      
+
+      <img class="icones-texnologias" src="./assets/HTML5.png" alt="HTML5" />
+      <img class="icones-texnologias" src="./assets/CSS.png" alt="CSS3" />
+      <img
+        class="icones-texnologias"
+        src="./assets/Javascript.png"
+        alt="Javascript"
+      />
+      <img
+        class="icones-texnologias"
+        src="./assets/Bootstrap.png"
+        alt="Bootstrap"
+      />
+      <img class="icones-texnologias" src="./assets/React.png" alt="React" />
+    </div>
+
+    <h1 id="projetos" class="tprojetos">Projetos</h1>
+
+    <div class="album py-5 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="cardtamanho" src="./assets/appdukeza.PNG" alt="AppDukeza" />
+              <div class="card-body">
+                <p class="card-text">
+                  App Dukeza | Projeto desenvolvido no curso Full Stack Turbo
+                  ministrado pelo professor Alisson Suassuna.
+                </p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://howtrojan.github.io/app-dukeza/"
+                      class="botoes-drep btn btn-sm btn-outline-secondary mr-4"
+                      target="_blank"
+                      >Deploy</a
+                    >
+                    <a
+                      href="https://github.com/howtrojan/app-dukeza"
+                      class="botoes-drep btn btn-sm btn-outline-secondary"
+                      target="_blank"
+                      >Repositório</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="cardtamanho" src="./assets/pokedex.png" alt="Pokedex" />
+              <div class="card-body">
+                <p class="card-text">
+                  Projeto Pokedex em JavaScript, CSS e HTML
+                  Desenvolvi um projeto de Pokedex durante um curso da DIO de programação.
+                </p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://howtrojan.github.io/Pokedex-em-Javascript-HTML-CSS/"
+                      class="botoes-drep btn btn-sm btn-outline-secondary mr-4"
+                      target="_blank"
+                      >Deploy</a
+                    >
+                    <a
+                      href="https://github.com/howtrojan/Pokedex-em-Javascript-HTML-CSS"
+                      class="botoes-drep btn btn-sm btn-outline-secondary"
+                      target="_blank"
+                      >Repositório</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="cardtamanho" src="./assets/homemaranha.PNG" alt="Projeto Homem Aranha Multiverso" />
+              <div class="card-body">
+                <p class="card-text">
+                  Projeto Homem Aranha Multiverso ministrado pela DIO
+                  <br>
+                  <br>
+                </p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://howtrojan.github.io/Projeto-Homem-Aranha/"
+                      class="botoes-drep btn btn-sm btn-outline-secondary mr-4"
+                      target="_blank"
+                      >Deploy</a
+                    >
+                    <a
+                      href="https://github.com/howtrojan/Projeto-Homem-Aranha"
+                      class="botoes-drep btn btn-sm btn-outline-secondary"
+                      target="_blank"
+                      >Repositório</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="cardtamanho" src="./assets/portifolio.PNG" alt="Portfolio" />
+              <div class="card-body">
+                <p class="card-text">
+                  Criação de uma página de portfolio, curso Ministrado na DIO
+                  <br>
+                  <br>
+                </p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://howtrojan.github.io/portfolio/"
+                      class="botoes-drep btn btn-sm btn-outline-secondary mr-4"
+                      target="_blank"
+                      >Deploy</a
+                    >
+                    <a
+                      href="https://github.com/howtrojan/portfolio"
+                      class="botoes-drep btn btn-sm btn-outline-secondary"
+                      target="_blank"
+                      >Repositório</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="cardtamanho" src="./assets/gitfinder.PNG" alt="Gitfinder" />
+              <div class="card-body">
+                <p class="card-text">
+                  Aplicação em React usando Fetch. busca na API do GitHub dados do usuário e dos repositórios e exibe .
+                  <br>
+                  <br>
+                </p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">                    
+                    <a
+                      href="https://github.com/howtrojan/GitFinder-Aplicacao-em-react"
+                      class="botoes-drep btn btn-sm btn-outline-secondary"
+                      target="_blank"
+                      >Repositório</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="cardtamanho" src="./assets/calculadora.png" alt="Calculadora" />
+              <div class="card-body">
+                <p class="card-text">
+                  Projeto de Calculadora feito como aprendizado na formação em React da DIO.
+                  <br>
+                  <br>
+                </p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">                    
+                    <a
+                      href="https://github.com/howtrojan/Calculadora-em-React"
+                      class="botoes-drep btn btn-sm btn-outline-secondary"
+                      target="_blank"
+                      >Repositório</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="contato" class="text-center text-lg-start bg-body-tertiary text-muted">  
+      <section class="ms-auto">
+        <div class="container mt-5">
+          <div class="row text-end mt-3"> 
+            <div>         
+              <h6 class="tcontato text-uppercase fw-bold mb-4">Contato</h6>
+            </div> 
+            <div>
+              
+              <p><i class="fas fa-home me-3"></i> Presidente Prudente - SP <img id="icone" src="./assets/black-placeholder-variant.png" alt=""></p>
+            </div>
+            <div>
+              <p class="text-end">
+                
+                <i class="fas fa-envelope me-3"></i>
+                andre.braga.asb@gmail.com <img id="icone" src="./assets/email.png" alt="">
+              </p>
+            </div>
+            <div>
+              <p class="text-end"><i class="fas fa-phone me-3"></i>18 997682790 <img id="icone" src="./assets/whatsapp.png" alt=""></p>   
+            </div>         
+          </div>
+        </div>
+      </section>
+    </footer>
+    
+    
+
+    <script src="./js/port.js"></script>
+    <script src="./js/bemvindo.js"></script>
+  </body>
+</html>
