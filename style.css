@@ -34,14 +34,14 @@
 }
 
 .sobre-titulo{
-    
+    width: 50rem;    
     color: #fff;
     font-size: 3rem;
 }
 
 .sobre-texto{
     color: gray;
-    height: 8rem;
+    height: 10rem;
 }
 
 .imgperfil{
@@ -164,7 +164,7 @@
 }
 
 .tbemvindo{
-    height: 12rem;
+    height: 5rem;
     width: 24rem;
 }
 
@@ -210,3 +210,8 @@
         justify-content: center;
     }
   }
+
+  @media (max-width: 420px) {
+    
+  }
+  
