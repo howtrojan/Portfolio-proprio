@@ -33,10 +33,11 @@
     width: 974px;
 }
 
-.sobre-titulo{
-    width: 50rem;    
-    color: #fff;
-    font-size: 3rem;
+.sobre-esquerda{
+    width: 44rem;
+    height: 12rem;
+    margin: 0;
+    padding: 0;
 }
 
 .sobre-texto{
@@ -149,6 +150,18 @@
     margin: 0;
 }
 
+.tbemvindo{        
+    height: 5rem;
+    width: 35rem;
+    text-align: center;
+    justify-content: center;               
+}
+
+.tbemvindo h1{
+    font-size: 3rem;   
+    color: #fff; 
+}
+
 /*  Ids */
 
 #mcontato{
@@ -163,11 +176,6 @@
     height: 10rem;
 }
 
-.tbemvindo{
-    height: 5rem;
-    width: 24rem;
-}
-
 @media (max-width: 920px) {
     .sobre{
         display: flex;
@@ -179,6 +187,18 @@
         justify-content: center;        
     } 
     
+    .tbemvindo{        
+        height: 12rem;
+        width: 42rem;
+        text-align: center;
+        justify-content: center;               
+    }
+
+    .tbemvindo h1{
+        font-size: 3rem;   
+        color: #fff; 
+    }    
+
     .sobre-caixa{
         align-items: center;
         justify-content: center;
@@ -190,6 +210,7 @@
         align-items: center;
         justify-content: center;
         width: 300px;
+        margin-top: 10rem;
     }
 
     .conhecimentos{
@@ -207,11 +228,84 @@
     
     .icones-contato{
         align-items: center;
-        justify-content: center;
+        justify-content: center;        
+    }
+
+    .sobre-esquerda{
+        height: 24rem;
     }
   }
 
+  @media (max-width: 720px) {
+    .sobre{
+        height: 75rem;
+    }
+    .tbemvindo{        
+        height: 12rem;
+        width: 24rem;
+        text-align: center;
+        justify-content: center;               
+    }
+
+    .tbemvindo h1{
+        font-size: 3rem;   
+        color: #fff; 
+    }
+
+    .sobre-esquerda{
+        width: 24rem;
+        height: 42rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre-texto{
+        height: 12rem;
+        width: 24rem;
+        text-align: center;
+        justify-content: center;              
+    }
+
+  }
+
   @media (max-width: 420px) {
+    .sobre{
+        margin: 0;
+        padding: 0;
+        height: 75rem;
+    }
+    
+    .sobre-caixa{
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        padding: 0rem;
+        margin: 0;
+    }
+
+    .sobre-texto{  
+        height: 24rem;      
+        width: 24rem;
+        text-align: center;
+        justify-content: center;              
+    }
+   
+
+    .tbemvindo{
+        height: 12rem;
+        width: 24rem;
+        text-align: center;
+        justify-content: center;               
+    }
+
+    .tbemvindo h1{
+        font-size: 3rem;   
+        color: #fff; 
+    }
+
+    .conhecimentos{
+        height: 75rem;
+    }
     
   }
   
