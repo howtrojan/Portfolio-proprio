@@ -1,3 +1,15 @@
+/*Tags*/
+
+Body{
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
 /*Classes*/
 
 .nav{
@@ -147,7 +159,7 @@
 }
 
 .btn-group{
-    margin: 0;
+    margin: 0;    
 }
 
 .tbemvindo{        
