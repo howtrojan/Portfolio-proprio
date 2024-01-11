@@ -28,7 +28,9 @@ h1, h2{
     margin-left:  1rem;    
 }
 
-
+.icone.navbar-toggler-icon {
+    filter: invert(100%); 
+}
 
 .sobre{    
     display: flex;
@@ -52,6 +54,10 @@ h1, h2{
     padding: 0;
 }
 
+.sobre-esquerda .icones-contato{
+    justify-content: center;
+}
+
 .sobre-texto{
     color: gray;
     height: 10rem;
@@ -63,6 +69,35 @@ h1, h2{
     margin-top: 3rem;
 
 }
+
+.navbar-nav li a:hover {
+    color: grey !important; 
+}
+
+/* Adicione este bloco de código ao seu arquivo de estilo CSS */
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.icone.navbar-toggler-icon {
+    filter: invert(100%); /* Inverte todas as cores da imagem */
+}
+
+  
+.scroll-link {
+    font-size: 24px;
+    color: #fff; /* Cor do ícone */
+    border: 2px solid #000; /* Contorno preto */
+    padding: 1px;
+    border-radius: 10%; /* Para criar um círculo */
+    text-decoration: none;
+    background-color: #000; /* Cor de fundo ao passar o mouse */
+    color: #fff;
+} 
 
 .tconhecimentos{
     text-align: center;
@@ -106,27 +141,27 @@ h1, h2{
 
 .icones-contato{
     display: flex;
-    flex-direction: row;
+    flex-direction: row;   
     
 }
-
-.grayscale-icons .iconecima {
-    height: 56px;
-    padding: 0rem 3rem;
-    margin: 5rem 0;
-    margin-top: 1rem;
-    filter: grayscale(100%);
-    transition: filter 0.3s ease;
-}
-
-.grayscale-icons .iconecima:hover {
-    filter: grayscale(0%);
-}
-
 
 .tcontato{
     font-size: 24px;
     color: #000;
+}
+
+.iconelink{
+    padding: 3rem 0;
+    margin: 0 3rem;
+}
+
+.iconecima{
+    border-radius: 1rem;
+    width: 85px;
+}
+
+.iconecima:hover{
+    background-color: #fff
 }
 
 .conhecimentos{
@@ -280,11 +315,16 @@ h1, h2{
 
   }
 
+  @media (max-width: 490px) {
+    .conhecimentos{
+        height: 90rem;
+    }}
+
   @media (max-width: 420px) {
     .sobre{
         margin: 0;
         padding: 0;
-        height: 75rem;
+        height: 75rem;        
     }
     
     .sobre-caixa{
@@ -292,14 +332,23 @@ h1, h2{
         justify-content: center;
         width: 200px;
         padding: 0rem;
-        margin: 0;
+        margin: 0;        
     }
 
     .sobre-texto{  
         height: 24rem;      
         width: 24rem;
         text-align: center;
-        justify-content: center;              
+        justify-content: center;    
+                
+    }
+
+    #bemvindo{
+        line-height: 3rem  
+    }
+
+    #log{
+        line-height: 4rem  
     }
    
 
@@ -307,12 +356,12 @@ h1, h2{
         height: 12rem;
         width: 24rem;
         text-align: center;
-        justify-content: center;               
+        justify-content: center;                      
     }
 
     .tbemvindo h1{
         font-size: 3rem;   
-        color: #fff; 
+        color: #fff;         
     }
 
     .conhecimentos{
