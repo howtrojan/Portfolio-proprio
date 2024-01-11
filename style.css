@@ -404,14 +404,3 @@ h1, h2{
     }
     
   }
-
-  @media (max-width: 380px) {
-
-    .sobre-texto{
-        width: 100%;
-        text-align: center;
-    }
-
-
-  }
-  
