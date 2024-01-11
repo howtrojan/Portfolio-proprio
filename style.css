@@ -231,11 +231,19 @@ h1, h2{
         padding: 0;
         height: 55rem;
         align-items: center;
-        justify-content: center;        
-    } 
+        justify-content: start;        
+    }        
+
+    .iconelink{
+        padding-top: 0;
+    }
+
+    .sobre-texto{
+        height: 9rem;
+
+    }
     
-    .tbemvindo{        
-        height: 12rem;
+    .tbemvindo{   
         width: 42rem;
         text-align: center;
         justify-content: center;               
@@ -281,19 +289,28 @@ h1, h2{
     .sobre-esquerda{
         height: 24rem;
     }
+
+    #bemvindo{
+        line-height: 3rem  
+    }
+
+    #log{
+        line-height: 4rem  
+    }
   }
 
   @media (max-width: 720px) {
     .sobre{
-        height: 75rem;
+        height: 55rem;
+        justify-content: start; 
     }
-    .tbemvindo{        
-        height: 12rem;
+    .tbemvindo{ 
         width: 24rem;
+        height: 9rem;
         text-align: center;
         justify-content: center;               
     }
-
+    
     .tbemvindo h1{
         font-size: 3rem;   
         color: #fff; 
@@ -301,7 +318,7 @@ h1, h2{
 
     .sobre-esquerda{
         width: 24rem;
-        height: 42rem;
+        height: 24rem;
         align-items: center;
         justify-content: center;
     }
@@ -311,6 +328,19 @@ h1, h2{
         width: 24rem;
         text-align: center;
         justify-content: center;              
+    }
+
+    .imagemperfil{
+        margin: 0;
+        padding: 0;
+    }
+
+    #bemvindo{
+        line-height: 3rem  
+    }
+
+    #log{
+        line-height: 4rem  
     }
 
   }
@@ -324,8 +354,9 @@ h1, h2{
     .sobre{
         margin: 0;
         padding: 0;
-        height: 75rem;        
-    }
+        height: 55rem; 
+        justify-content: start;       
+    }    
     
     .sobre-caixa{
         align-items: center;
@@ -336,7 +367,7 @@ h1, h2{
     }
 
     .sobre-texto{  
-        height: 24rem;      
+        height: 12rem;      
         width: 24rem;
         text-align: center;
         justify-content: center;    
