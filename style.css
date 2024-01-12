@@ -1,405 +1,434 @@
 /*Tags*/
 
-Body{
-    background-color: #000;
-    font-family: 'Roboto', sans-serif;
+Body {
+  background-color: #000;
+  font-family: "Roboto", sans-serif;
 }
 
-h1, h2{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
 /*Classes*/
 
-.nav{
-    background-color: #000;
+
+/* Adicione estas regras ao seu arquivo CSS ou bloco de estilo */
+.btn-group {
+    position: relative;
+}
+
+.botoes-drep {
+    position: absolute;
+    bottom: 10px; /* Ajuste conforme necessário */
 }
 
 
-.menu{
-    font-size: 24px;
-    background-color: #000;  
-    color: #fff;         
-    width: 100%;  
+.nav {
+  background-color: #000;
 }
 
-.nav-item{
-    margin-left:  1rem;    
+.menu {
+  font-size: 24px;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+.nav-item {
+  margin-left: 1rem;
 }
 
 .icone.navbar-toggler-icon {
-    filter: invert(100%); 
+  filter: invert(100%);
 }
 
-.sobre{    
-    display: flex;
-    flex-direction: row;       
-    background-color: #212529;    
-    width: 100%;
-    justify-content: center;
-    padding: 6rem 10rem;
-    
+.sobre {
+  display: flex;
+  flex-direction: row;
+  background-color: #212529;
+  width: 100%;
+  justify-content: center;
+  padding: 6rem 10rem;
 }
 
-.sobre-caixa{
-    padding-right:10rem;
-    width: 974px;
+.sobre-caixa {
+  padding-right: 10rem;
+  width: 974px;
 }
 
-.sobre-esquerda{
-    width: 44rem;
-    height: 12rem;
-    margin: 0;
-    padding: 0;
+.sobre-esquerda {
+  width: 44rem;
+  height: 12rem;
+  margin: 0;
+  padding: 0;
 }
 
-.sobre-esquerda .icones-contato{
-    justify-content: center;
+.sobre-esquerda .icones-contato {
+  justify-content: center;
 }
 
-.sobre-texto{
-    color: gray;
-    height: 10rem;
+.sobre-texto {
+  color: gray;
+  height: 10rem;
+  width: 42rem;
 }
 
-.imgperfil{
-    border-radius: 50%;
-    height: 18rem;
-    margin-top: 3rem;
-
+.imgperfil {
+  border-radius: 50%;
+  height: 18rem;
+  margin-top: 3rem;
 }
 
 .navbar-nav li a:hover {
-    color: grey !important; 
+  color: grey !important;
 }
 
-/* Adicione este bloco de código ao seu arquivo de estilo CSS */
-
 .scroll-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
 }
 
 .icone.navbar-toggler-icon {
-    filter: invert(100%); /* Inverte todas as cores da imagem */
+  filter: invert(100%);
 }
 
-  
 .scroll-link {
-    font-size: 24px;
-    color: #fff; /* Cor do ícone */
-    border: 2px solid #000; /* Contorno preto */
-    padding: 1px;
-    border-radius: 10%; /* Para criar um círculo */
-    text-decoration: none;
-    background-color: #000; /* Cor de fundo ao passar o mouse */
-    color: #fff;
-} 
-
-.icone-conhecimentos{
-    color: #fff;
-    text-align: center;
-}
-.tconhecimentos{
-    text-align: center;
-    justify-content: center;
-    background-color: #000;
-    margin: 0;
-    padding-top: 2rem;
-    color: #fff;
-    font-size: 42px;
+  font-size: 24px;
+  color: #fff;
+  border: 2px solid #000;
+  padding: 1px;
+  border-radius: 10%;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
 }
 
-.tprojetos{
-    text-align: center;
-    justify-content: center;
-    background-color: #212529;
-    margin: 0;
-    padding-top: 2rem;
-    color: #fff;
-    font-size: 42px;
+.icone-conhecimentos {
+  color: #fff;
+  text-align: center;
+}
+.tconhecimentos {
+  text-align: center;
+  justify-content: center;
+  background-color: #000;
+  margin: 0;
+  padding-top: 2rem;
+  color: #fff;
+  font-size: 42px;
 }
 
-.whatsapp-icon{
-    height: 24px;
+.tprojetos {
+  text-align: center;
+  justify-content: center;
+  background-color: #212529;
+  margin: 0;
+  padding-top: 2rem;
+  color: #fff;
+  font-size: 42px;
 }
 
-#icone{
-    height: 20px;
+.whatsapp-icon {
+  height: 24px;
 }
 
-.contato{   
-    background-color: #fff;  
-    text-decoration: none;
-    padding: 0.5rem;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    align-self: flex-end;
-    width: 400px;
+.contato {
+  background-color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  align-self: flex-end;
+  width: 400px;
 }
 
-.icones-contato{
-    display: flex;
-    flex-direction: row;   
-    
+.icones-contato {
+  display: flex;
+  flex-direction: row;
 }
 
-.tcontato{
-    font-size: 24px;
-    color: #000;
+.tcontato {
+  font-size: 24px;
+  color: #000;
 }
 
-.iconelink{
-    padding: 3rem 0;
-    margin: 0 3rem;
+.iconelink {
+  padding: 3rem 0;
+  margin: 0 3rem;
 }
 
-.iconecima{
-    border-radius: 1rem;
-    width: 85px;
+.iconecima {
+  border-radius: 1rem;
+  width: 85px;
 }
 
-.iconecima:hover{
-    background-color: #fff
+.iconecima:hover {
+  opacity: 50%;
 }
 
-.conhecimentos{
-    display: flex;
-    flex-direction: row;
-    padding: 4rem;    
-    justify-content: center;
-    background-color: black;
-    width: 100%;
-    height: 20rem;
-
+.conhecimentos {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  height: 20rem;
 }
 
-.icones-texnologias{
-    height: 120px;
-    margin: 2rem;
+.icones-texnologias {
+  height: 120px;
+  margin: 2rem;
 }
 
-.rodape{
-    display: flex;
-    flex-direction: column;
-    margin: 3rem;
-    align-items: end;
-    justify-content:center;
+.rodape {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  align-items: end;
+  justify-content: center;
 }
 
-.botoes-drep{
-    margin: 1rem;    
-    margin-bottom: 0;
+.botoes-drep {
+  margin: 1rem;
+  margin-bottom: 0;
 }
 
-.btn-group{
-    margin: 0;    
+.btn-group {
+  margin: 0;
 }
 
-.tbemvindo{        
-    height: 5rem;
-    width: 35rem;
-    text-align: center;
-    justify-content: center;               
+.tbemvindo {
+  height: 5rem;
+  width: 35rem;
+  text-align: center;  
+  font-size: 3rem;
+  color: #fff;
 }
 
-.tbemvindo h1{
-    font-size: 3rem;   
-    color: #fff; 
+.cardtamanho {
+  height: 15rem;
+}
+
+.card-body {
+  height: 10rem;
 }
 
 /*  Ids */
 
-#mcontato{
-    margin-right: 8rem;
+#bemvindo {
+  text-align: justify;
 }
 
-.cardtamanho{
-    height: 15rem;
+#icone {
+  height: 20px;
 }
 
-.card-body{
-    height: 10rem;
+#mcontato {
+  margin-right: 8rem;
 }
+
+/*media querys */
 
 @media (max-width: 920px) {
-    .sobre{
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        padding: 0;
-        height: 55rem;
-        align-items: center;
-        justify-content: start;        
-    }        
-
-    .iconelink{
-        padding-top: 0;
-    }
-
-    .sobre-texto{
-        height: 9rem;
-
-    }
-    
-    .tbemvindo{   
-        width: 42rem;
-        text-align: center;
-        justify-content: center;               
-    }
-
-    .tbemvindo h1{
-        font-size: 3rem;   
-        color: #fff; 
-    }    
-
-    .sobre-caixa{
-        align-items: center;
-        justify-content: center;
-        width: 500px;
-        padding: 1rem;
-    }
-
-    .imgperfil{
-        align-items: center;
-        justify-content: center;
-        width: 300px;
-        margin-top: 10rem;
-    }
-
-    .conhecimentos{
-        display: flex; 
-        flex-wrap: wrap;
-        height: 800px;
-    }
-
-    .icones-texnologias {
-        width: 120px;
-        align-items: center;
-        justify-content: center;
-        margin: 2rem;
-    }
-    
-    .icones-contato{
-        align-items: center;
-        justify-content: center;        
-    }
-
-    .sobre-esquerda{
-        height: 24rem;
-    }
-
-    #bemvindo{
-        line-height: 3rem  
-    }
-
-    #log{
-        line-height: 4rem  
-    }
+  .sobre {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 55rem;
+    align-items: center;
+    justify-content: start;
   }
 
-  @media (max-width: 720px) {
-    .sobre{
-        height: 55rem;
-        justify-content: start; 
-    }
-    .tbemvindo{ 
-        width: 24rem;
-        height: 9rem;
-        text-align: center;
-        justify-content: center;               
-    }
-    
-    .tbemvindo h1{
-        font-size: 3rem;   
-        color: #fff; 
-    }
-
-    .sobre-esquerda{
-        width: 24rem;
-        height: 24rem;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .sobre-texto{
-        height: 12rem;
-        width: 24rem;
-        text-align: center;
-        justify-content: center;              
-    }
-
-    .imagemperfil{
-        margin: 0;
-        padding: 0;
-    }
-
-    #bemvindo{
-        line-height: 3rem  
-    }
-
-    #log{
-        line-height: 4rem  
-    }
-
+  .cardtamanho {
+    height: 20rem;
+  }
+  
+  .card-body {
+    height: 15rem;
   }
 
-  @media (max-width: 490px) {
-    .conhecimentos{
-        height: 90rem;
-    }}
-
-  @media (max-width: 420px) {
-    .sobre{
-        margin: 0;
-        padding: 0;
-        height: 55rem; 
-        justify-content: start;       
-    }    
-    
-    .sobre-caixa{
-        align-items: center;
-        justify-content: center;
-        padding: 0rem;
-        margin: 0;        
-    }
-
-    .sobre-texto{  
-        height: 12rem;      
-        width: 24rem;
-        text-align: center;
-        justify-content: center;    
-                
-    }
-
-    #bemvindo{
-        line-height: 3rem  
-    }
-
-    #log{
-        line-height: 4rem  
-    }
-   
-
-    .tbemvindo{
-        height: 12rem;
-        width: 24rem;
-        text-align: center;
-        justify-content: center;                      
-    }
-
-    .tbemvindo h1{
-        font-size: 3rem;   
-        color: #fff;         
-    }
-
-    .conhecimentos{
-        height: 75rem;
-    }
-    
+  .iconelink {
+    padding-top: 0;
   }
+
+  .sobre-texto {
+    height: 9rem;
+  }
+
+  .tbemvindo {
+    width: 42rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .tbemvindo h1 {
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  .sobre-caixa {
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    padding: 1rem;
+  }
+
+  .imgperfil {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-top: 10rem;
+  }
+
+  .conhecimentos {
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+  }
+
+  .icones-texnologias {
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+  }
+
+  .icones-contato {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sobre-esquerda {
+    height: 24rem;
+  }
+
+  #bemvindo {
+    line-height: 3rem;
+  }
+
+  #log {
+    line-height: 4rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .sobre {
+    height: 55rem;
+    justify-content: start;
+  }
+  .tbemvindo {
+    width: 24rem;
+    height: 9rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .tbemvindo h1 {
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  .sobre-esquerda {
+    width: 24rem;
+    height: 24rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sobre-texto {
+    height: 12rem;
+    width: 24rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .imagemperfil {
+    margin: 0;
+    padding: 0;
+  }
+
+  #bemvindo {
+    line-height: 3rem;
+  }
+
+  #log {
+    line-height: 4rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .conhecimentos {
+    height: 90rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .sobre {
+    margin: 0;
+    padding: 0;
+    height: 55rem;
+    justify-content: start;
+  }
+
+  .sobre-caixa {
+    align-items: center;
+    justify-content: center;
+    padding: 0rem;
+    margin: 0;
+  }
+
+  .sobre-texto {
+    height: 12rem;
+    width: 24rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #bemvindo {
+    line-height: 3rem;
+  }
+
+  #log {
+    line-height: 4rem;
+  }
+
+  .tbemvindo {
+    height: 12rem;
+    width: 24rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .tbemvindo h1 {
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  .conhecimentos {
+    height: 75rem;
+  }
+}
+
+@media (max-width: 385px) {
+  .sobre-texto {
+    width: 18rem;
+    height: 16rem;
+    margin-left: 2.5rem;
+  }
+
+  #bemvindo {
+    text-align: justify;
+  }
+
+  .icones-contato {
+    margin-top: 1rem;
+    height: 2.5rem;
+  }
+}
