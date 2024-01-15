@@ -11,13 +11,6 @@ h2 {
 
 /*Classes*/
 
-
-/* Adicione estas regras ao seu arquivo CSS ou bloco de estilo */
-
-#projetos{
-  display: none;
-}
-
 .resumotec{
   text-align: center;
   font-size: 0.8rem;
@@ -247,6 +240,21 @@ h2 {
 }
 
 /*  Ids */
+
+
+#projetos{
+  display: none;
+}
+
+#mais {
+  padding: 5px 10px; 
+  font-size: 14px; 
+  width: auto;   
+  margin: 0 auto; 
+  font-weight: bold;
+  align-items: center;
+  font-family: 'Roboto';
+}
 
 #bemvindo {
   text-align: start;
