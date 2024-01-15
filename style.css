@@ -1,7 +1,5 @@
 /*Tags*/
-
-Body {
-  background-color: #000;
+* {  
   font-family: "Roboto", sans-serif;
 }
 
@@ -15,6 +13,10 @@ h2 {
 
 
 /* Adicione estas regras ao seu arquivo CSS ou bloco de estilo */
+
+#projetos{
+  display: none;
+}
 
 .resumotec{
   text-align: center;
