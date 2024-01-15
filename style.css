@@ -15,6 +15,13 @@ h2 {
 
 
 /* Adicione estas regras ao seu arquivo CSS ou bloco de estilo */
+
+.resumotec{
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 1rem;
+}
+
 .btn-group {
     position: relative;
 }
@@ -47,8 +54,7 @@ h2 {
 .sobre {
   display: flex;
   flex-direction: row;
-  background-color: #212529;
-  width: 100%;
+  background-color: #212529;  
   justify-content: center;
   padding: 7rem 10rem;
 }
@@ -197,7 +203,7 @@ h2 {
   justify-content: center;
   background-color: black;
   width: 100%;
-  height: 20rem;
+  height: 30rem;
 }
 
 .icones-texnologias {
@@ -254,6 +260,12 @@ h2 {
 
 /*media querys */
 
+@media (max-width: 1220) {
+  .resumotec{
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 920px) {
   .sobre {
     display: flex;
@@ -309,7 +321,7 @@ h2 {
   .conhecimentos {
     display: flex;
     flex-wrap: wrap;
-    height: 800px;
+    height: 110rem;
   }
 
   .icones-texnologias {
@@ -405,7 +417,7 @@ h2 {
 
 @media (max-width: 490px) {
   .conhecimentos {
-    height: 90rem;
+    height: 110rem;
   }
 
   .sobremim{  
@@ -460,7 +472,7 @@ h2 {
   }
 
   .conhecimentos {
-    height: 75rem;
+    height: 120rem;
   }
 
   .sobremim{  
@@ -495,4 +507,5 @@ h2 {
     margin: 0rem;
     margin-top: 2rem;
   } 
+  
 }
