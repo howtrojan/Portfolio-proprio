@@ -1,5 +1,5 @@
 var div = document.getElementById('bemvindo');
-var texto = 'Olá, me chamo André Santos Braga e estou em busca da minha primeira oportunidade como programador Front-End';
+var texto = 'Em busca da primeira oportunidade como programador Front-End';
 
 function escrever(str, el) {
   var char = str.split('').reverse();
