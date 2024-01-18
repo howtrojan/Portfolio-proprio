@@ -1,6 +1,6 @@
 /*Tags*/
 * {  
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;  
 }
 
 h1,
@@ -11,14 +11,22 @@ h2 {
 
 /*Classes*/
 
+.card{
+  height: 30rem !important;
+  position: relative;
+}
+
+
+.cardtamanho{
+  height: 60%;
+}
+
+  
+
 .resumotec{
   text-align: center;
   font-size: 0.8rem;
   margin: 1rem;
-}
-
-.btn-group {
-    position: relative;
 }
 
 .botoes-drep {
@@ -36,6 +44,20 @@ h2 {
   background-color: #000;
   color: #fff;
   width: 100%;
+}
+
+.btn-group a{
+  border-radius: 0;
+  width: 110px;
+  background-color: #212529;
+  color: #fff;
+}
+
+.btn-mais{
+  border-radius: 0;
+  width: 110px !important;
+  background-color: #fff;
+  color: #212529;
 }
 
 .nav-item {
@@ -99,6 +121,7 @@ h2 {
   border-radius: 50%;
   height: 18rem;
   margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .navbar-nav li a:hover {
@@ -118,10 +141,9 @@ h2 {
 
 .scroll-link {
   font-size: 24px;
-  color: #fff;
-  border: 2px solid #000;
-  padding: 0.5rem;
-  border-radius: 50%;
+  color: #fff;  
+  padding: 0.7rem;
+  border-radius: 100%;
   text-decoration: none;
   background-color: #000;
   color: #fff;
@@ -129,7 +151,7 @@ h2 {
 
 .icone-conhecimentos {
   color: #fff;
-  text-align: center;
+  text-align: center;  
 }
 .tconhecimentos {
   text-align: center;
@@ -148,7 +170,7 @@ h2 {
   margin: 0;
   padding-top: 2rem;
   color: #fff;
-  font-size: 42px;
+  font-size: 42px;  
 }
 
 .whatsapp-icon {
@@ -164,7 +186,7 @@ h2 {
   margin-left: 5rem;
   margin-right: 5rem;
   align-self: flex-end;
-  width: 400px;
+  width: 400px;  
 }
 
 .icones-contato {
@@ -174,7 +196,7 @@ h2 {
 
 .tcontato {
   font-size: 24px;
-  color: #000;
+  color: #000;  
 }
 
 .iconelink {
@@ -191,7 +213,7 @@ h2 {
   opacity: 50%;
 }
 
-.conhecimentos {
+.conhecimentos  {
   display: flex;
   flex-direction: row;
   padding: 4rem;
@@ -218,11 +240,8 @@ h2 {
   margin-bottom: 0;
 }
 
-.btn-group {
-  margin: 0;
-}
-
 .tbemvindo {
+  margin-top: 1rem;
   height: 5rem;
   width: 35rem;
   text-align: center;  
@@ -230,12 +249,17 @@ h2 {
   color: #fff;
 }
 
-.cardtamanho {
-  height: 15rem;
+.text-center p{
+  color: #000 !important;
 }
 
-.card-body {
-  height: 10rem;
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.appear {
+  opacity: 1;
 }
 
 /*  Ids */
@@ -269,7 +293,7 @@ h2 {
 
 /*media querys */
 
-@media (max-width: 1220) {
+@media (max-width: 1220px) {
   .resumotec{
     font-size: 10px;
   }
@@ -283,14 +307,6 @@ h2 {
     padding: 0;    
     align-items: center;
     justify-content: start;
-  }
-
-  .cardtamanho {
-    height: 20rem;
-  }
-  
-  .card-body {
-    height: 15rem;
   }
 
   .iconelink {
@@ -324,6 +340,7 @@ h2 {
     justify-content: center;
     width: 300px;
     margin-top: 10rem;
+    
   }
 
   .conhecimentos {
