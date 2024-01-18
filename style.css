@@ -87,12 +87,12 @@ h2 {
 }
 
 
-.sobremim{  
-  height: 32rem;
+.sobremim{    
   text-align: center;
   font-size: 2rem;
-  margin: 1.5rem 5rem;
-  margin-top: 3rem;  
+  margin: auto;  
+  justify-content: center;
+  padding: 1rem;
 }  
 
 .imgperfil {
@@ -197,8 +197,7 @@ h2 {
   padding: 4rem;
   justify-content: center;
   background-color: black;
-  width: 100%;
-  height: 30rem;
+  width: 100%;  
 }
 
 .icones-texnologias {
@@ -281,8 +280,7 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0;
-    height: 55rem;
+    padding: 0;    
     align-items: center;
     justify-content: start;
   }
@@ -330,8 +328,7 @@ h2 {
 
   .conhecimentos {
     display: flex;
-    flex-wrap: wrap;
-    height: 110rem;
+    flex-wrap: wrap;    
   }
 
   .icones-texnologias {
@@ -358,12 +355,10 @@ h2 {
     line-height: 4rem;
   }
 
-  .sobremim{  
-    height: 50rem;
+  .sobremim p{ 
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
+    margin: auto;
   } 
 
   #bemvindo {
@@ -373,8 +368,7 @@ h2 {
 }
 
 @media (max-width: 720px) {
-  .sobre {
-    height: 58rem;
+  .sobre {    
     justify-content: start;
   }
   .tbemvindo {
@@ -416,22 +410,15 @@ h2 {
     line-height: 4rem;
   }
 
-  .sobremim{  
-    height: 30rem;
+  .sobremim p{      
     text-align: center;
     font-size: 1.5rem;
-    margin: 0rem;
-    margin-top: 2rem;
+    margin: auto;
   } 
 }
 
-@media (max-width: 490px) {
-  .conhecimentos {
-    height: 110rem;
-  }
-
-  .sobremim{  
-    height: 35rem;
+@media (max-width: 490px) { 
+  .sobremim p{  
     text-align: center;
     font-size: 1.5rem;
     margin: 0rem;
@@ -442,8 +429,7 @@ h2 {
 @media (max-width: 420px) {
   .sobre {
     margin: 0;
-    padding: 0;
-    height: 55rem;
+    padding: 0;    
     justify-content: start;
   }
 
@@ -481,17 +467,13 @@ h2 {
     color: #fff;
   }
 
-  .conhecimentos {
-    height: 120rem;
-  }
-
-  .sobremim{  
-    height: 40rem;
+ 
+  .sobremim{      
     text-align: center;
     font-size: 1.5rem;
-    margin: 0rem;
-    margin-top: 2rem;
+    margin: auto;       
   } 
+  
 }
 
 @media (max-width: 385px) {
@@ -510,12 +492,10 @@ h2 {
     height: 2.5rem;
   }
 
-  .sobremim{  
-    height: 50rem;
+  .sobremim{      
     text-align: center;
     font-size: 1.5rem;
-    margin: 0rem;
-    margin-top: 2rem;
+    margin: auto;
   } 
   
 }
