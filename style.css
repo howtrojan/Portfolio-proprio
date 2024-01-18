@@ -16,22 +16,22 @@ h2 {
   position: relative;
 }
 
+.card-body{
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
 
 .cardtamanho{
   height: 60%;
 }
 
-  
 
-.resumotec{
-  text-align: center;
-  font-size: 0.8rem;
-  margin: 1rem;
-}
-
-.botoes-drep {
-    position: absolute;
-    bottom: 10px; /* Ajuste conforme necessário */
+.botoes-drep {   
+  position: absolute;
+  bottom: 10px; 
+  margin: 0    
 }
 
 
@@ -151,8 +151,10 @@ h2 {
 
 .icone-conhecimentos {
   color: #fff;
-  text-align: center;  
+  text-align: center; 
+  
 }
+
 .tconhecimentos {
   text-align: center;
   justify-content: center;
@@ -216,15 +218,36 @@ h2 {
 .conhecimentos  {
   display: flex;
   flex-direction: row;
-  padding: 4rem;
+  padding: 4rem;  
   justify-content: center;
   background-color: black;
-  width: 100%;  
+  width: 100%;   
 }
 
-.icones-texnologias {
+.icones-tecnologias{  
   height: 120px;
   margin: 2rem;
+  transition: transform 0.3s ease-in-out;  
+  
+}
+
+.icones-tecnologias:hover{
+  opacity: 150%;  
+  transform: scale(1.5);    
+}
+
+.resumotec{
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 1rem;   
+  transition: transform 0.3s ease-in-out;  
+}
+
+.resumotec:hover{  
+  font-weight: bold;
+  opacity: 150%;  
+  transform: scale(1.4);      
+  background-color: #000;
 }
 
 .rodape {
@@ -347,13 +370,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;    
   }
-
-  .icones-texnologias {
-    width: 120px;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem;
-  }
+ 
 
   .icones-contato {
     align-items: center;
